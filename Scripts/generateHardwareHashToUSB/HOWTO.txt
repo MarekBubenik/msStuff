@@ -1,0 +1,24 @@
+#########################################################################################################
+#     
+#   Author: Marek Bubeník
+#   Date: 18.10.2023
+#   Description: Script that generates Hardware Hash and save it to the Export folder
+#   Notes: Execute the .\clickAsAdmin.bat as administrator
+#	Usage: Copy all these files on to the USB stick, which will be used during the OOBE to extract HardwareHash
+#
+#############################################################################################################
+
+Before you click on anything, proceed with these steps first:
+-------------------------------------------------------------
+
+1) Connect to a network
+	1a) SHIFT + F10 -> start ms-availablenetworks: -> click on your SSID and connect
+			or
+	1b) Click through the OOBE and go to the section Network, connect to a network, DO NOT CLICK ON NEXT
+
+2) SHIFT + F10
+3) explorer
+4) Found the D: drive
+5) Right click on the batch file called clickAsAdmin.bat - Run as Administrator (spustit jako administrator)
+6) Generated file will be saved in the folder called Export - AutoPilotHWID.csv
+7) Perform manual import to Autopilot section in Intune
