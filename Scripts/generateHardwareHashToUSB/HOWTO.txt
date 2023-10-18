@@ -3,7 +3,7 @@
 #   Author: Marek Bubeník
 #   Date: 18.10.2023
 #   Description: Script that generates Hardware Hash and save it to the Export folder
-#   Notes: Execute the .\clickAsAdmin.bat as administrator
+#	Notes: Execute the .\clickAsAdmin.bat as administrator
 #	Usage: Copy all these files on to the USB stick, which will be used during the OOBE to extract HardwareHash
 #
 #############################################################################################################
